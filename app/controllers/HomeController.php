@@ -11,16 +11,19 @@ class HomeController extends Controller
 
     public function index()
     {
+        $titlePage ="Trang chủ";
 
-        $dienthoai = getAllOutstanding("listproducts", "category_brand", 1, 10);
-        $maytinh = getAllOutstanding("listproducts", "category_products", 2, 10);
-        $listCategory = getAllProducts("category_products");
-        $viewnoidung = 'app/views/users/layout/productHome.php';
+        // $dienthoai = getAllOutstanding("listproducts", "category_brand", 1, 10);
+        // $maytinh = getAllOutstanding("listproducts", "category_products", 2, 10);
+        // $listCategory = getAllProducts("category_products");
+        // $viewnoidung = 'app/views/users/layout/productHome.php';
+        $viewnoidung = 'app/views/users/home/home.php';
         $this->view("users/layout.php", [
+            "titlePage" => $titlePage,
             "viewnoidung" => $viewnoidung,
-            "dienthoai" => $dienthoai,
-            "maytinh" => $maytinh,
-            "listCategory" => $listCategory,
+            // "dienthoai" => $dienthoai,
+            // "maytinh" => $maytinh,
+            // "listCategory" => $listCategory,
 
         ]);
     }
