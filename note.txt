@@ -1,0 +1,34 @@
+
+                                 --------------------------------------
+    <============================| | |  Sư Phụ VINH 10 CỦ Chỉ Dạy | | |================================>
+                                 --------------------------------------
+-------------------------------- ĐÃ ĐƯỢC XỬ LÝ -------------------------------------------
+1. đã xử lý được " alias ": 
+2. đã xử lý được " alias " cho phần bosstrap : <button  data-bs-target="#<?="alias"?>">đien thoại </button>  => <tablet id="<?="alias"?> điện thoại<tablet>
+3. đã xử lý url  : từ url id = 1 -> hiện sản phẩm điện thoại 
+                                        ||
+                                        vv
+                    Giờ thành url newshop/trangchitiet?alias=dien-thoai -> hiện danh sách điện thoại
+
+4. đã xử lý xóa sản phẩm : 20%
+----------------------------------- CHƯA ĐƯỢC XỬ LÝ ---------------------------------------------
+1. tên loại của brand : if(brand(khóa ngoại)== product(khóa chính))=> tên loại ; else => khác
+2. tối ưu url lại : từ newshop/trangchitiet?alias=dien-thoai -> hiện danh sách điện thoại
+                                        ||
+                                        vv
+                     Giờ thành url newshop/dien-thoai -> hiện danh sách điện thoại
+
+3. Thêm giở hàng => thanh toán hóa đơn 
+4.tìm kiếm tất cả ở trang home 
+5.tìm kiếm sản phẩm theo từng loại trong danh sách sản phẩm : loại điện thoại => tên điện thoại đó  , loại laptop =>  tên laptop đó 
+6. xóa sản phẩm : category, brand.....
+7.sửa sản phẩm.....
+8. update sản phẩm 
+9. Đăng nhâp đăng ký
+
+
+
+
+ 
+
+//// sưa llaij from spl
