@@ -7,7 +7,13 @@ include_once "config.php";
 spl_autoload_register(function ($class) {
     require "app/controllers/" . $class . ".php";
 });
-$baseDir = "/newshop/";
+
+const DOMAIN_NAME = "newshop";
+
+$baseDir = "/" . DOMAIN_NAME . "/";
+
+const PUBLIC_URL = "/" .DOMAIN_NAME . "/../" . "publics" . "/" . DOMAIN_NAME . "/";
+
 
 
 
@@ -15,19 +21,20 @@ $router = [
     'GET' => [
         //user
         '' => [new HomeController, "index"],
-        '404' => [new HomeController, "errors"],
+        'cua-hang' => [new HomeController, "shop"],
         'trangchitiet' => [new UserController, "pageDetail"],
         'sanpham' => [new UserController, "details"],
-        
+
         // login 
         'dangnhap' => [new HomeController, 'login'],
 
-        // admin
+
         'admin' => [new AdminController, "index"],
         'admin/product/list' => [new AdminController, "lists"],
         'admin/brand/list' => [new AdminController, "brand"],
-        'admin/category/list' => [new AdminController, "category"]
-
+        'admin/category/list' => [new AdminController, "category"],
+        // errors
+        '404' => [new HomeController, "errors"]
     ],
     'POST' => [
         'dangnhap' => [new HomeController, 'login'],
@@ -67,7 +74,6 @@ $route = strtolower(trim($arr[0], '/'));
 if (count($arr) >= 2) {
     parse_str($arr[1], $query);
     $params = array_merge($_GET, $query);
-  
 } else {
     $params = $_GET;
 }
@@ -86,6 +92,4 @@ if (!array_key_exists($route, $router[$method])) {
 
 $action = $router[$method][$route];  // [0 => SanphamController, 1 => detail]
 call_user_func($action);
-
-
 

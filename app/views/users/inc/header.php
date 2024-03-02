@@ -14,7 +14,7 @@
     <meta name="description" content="240+ Best Bootstrap Templates are available on this website. Find your template for your project compatible with the most popular HTML library in the world." />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="canonical" href="https://htmldemo.hasthemes.com/furns/" />
+    <!-- <link rel="canonical" href="https://htmldemo.hasthemes.com/furns/" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Open Graph (OG) meta tags are snippets of code that control how URLs are displayed when shared on social media  -->
@@ -28,10 +28,10 @@
     <meta property="og:description" content="Furns - Responsive eCommerce HTML Template" />
     <meta name="robots" content="noindex, follow" />
     <!-- Add site Favicon -->
-    <link rel="icon" href="../../../../publics/assets/images/favicon/favicon.png" sizes="32x32" />
-    <link rel="icon" href="../../../../publics/assets/images/favicon/favicon.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="../../../../publics/assets/images/favicon/favicon.png" />
-    <meta name="msapplication-TileImage" content="../../../../publics/assets/images/favicon/favicon.png" />
+    <link rel="icon" href="<?= PUBLIC_URL ?>images/favicon/favicon.png" sizes="32x32" />
+    <link rel="icon" href="<?= PUBLIC_URL ?>images/favicon/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="<?= PUBLIC_URL ?>images/favicon/favicon.png" />
+    <meta name="msapplication-TileImage" content="<?= PUBLIC_URL ?>images/favicon/favicon.png" />
     <!-- Structured Data  -->
     <!-- <script type="application/ld+json">
         {
@@ -43,22 +43,22 @@
     </script> -->
 
     <!-- vendor css (Bootstrap & Icon Font) -->
-    <!-- <link rel="stylesheet" href="../../../../publics/assets/css/vendor/bootstrap.min.css" />
-         <link rel="stylesheet" href="../../../../publics/assets/css/vendor/simple-line-icons.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/vendor/ionicons.min.css" /> -->
+    <!-- <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/vendor/bootstrap.min.css" />
+         <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/vendor/simple-line-icons.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/vendor/ionicons.min.css" /> -->
 
     <!-- plugins css (All Plugins Files) -->
-    <!-- <link rel="stylesheet" href="../../../../publics/assets/css/plugins/animate.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/plugins/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/plugins/jquery-ui.min.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/plugins/jquery.lineProgressbar.css">
-    <link rel="stylesheet" href="../../../../publics/assets/css/plugins/nice-select.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/plugins/venobox.css" /> -->
+    <!-- <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/animate.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/jquery-ui.min.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/jquery.lineProgressbar.css">
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/venobox.css" /> -->
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <link rel="stylesheet" href="../../../../publics/assets/css/vendor/vendor.min.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/plugins/plugins.min.css" />
-    <link rel="stylesheet" href="../../../../publics/assets/css/style.min.css">
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/vendor/vendor.min.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/plugins/plugins.min.css" />
+    <link rel="stylesheet" href="<?= PUBLIC_URL ?>css/style.min.css">
     <link rel="stylesheet" href="">
 
 
@@ -129,7 +129,7 @@
                     <!-- Header Logo Start -->
                     <div class="col-auto align-self-center">
                         <div class="header-logo">
-                            <a href='index.html'><img src="../../../../publics/assets/images/logo/logo.png" alt="Site Logo" /></a>
+                            <a href='index.html'><img src="<?= PUBLIC_URL ?>images/logo/logo.png" alt="Site Logo" /></a>
                         </div>
                     </div>
                     <!-- Header Logo End -->
@@ -246,7 +246,7 @@
             <div class="body customScroll">
                 <ul class="minicart-product-list">
                     <li>
-                        <a class='image' href='single-product.html'><img src="../../../../publics/assets/images/product-image/1.jpg" alt="Cart product Image"></a>
+                        <a class='image' href='single-product.html'><img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Cart product Image"></a>
                         <div class="content">
                             <a class='title' href='single-product.html'>Walnut Cutting Board</a>
                             <span class="quantity-price">Số lượng<span class="amount"> 10</span></span>
@@ -255,7 +255,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class='image' href='single-product.html'><img src="../../../../publics/assets/images/product-image/2.jpg" alt="Cart product Image"></a>
+                        <a class='image' href='single-product.html'><img src="<?= PUBLIC_URL ?>images/product-image/2.jpg" alt="Cart product Image"></a>
                         <div class="content">
                             <a class='title' href='single-product.html'>Lucky Wooden Elephant</a>
                             <span class="quantity-price">Số lượng<span class="amount"> 10</span></span>
@@ -264,7 +264,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class='image' href='single-product.html'><img src="../../../../publics/assets/images/product-image/3.jpg" alt="Cart product Image"></a>
+                        <a class='image' href='single-product.html'><img src="<?= PUBLIC_URL ?>images/product-image/3.jpg" alt="Cart product Image"></a>
                         <div class="content">
                             <a class='title' href='single-product.html'>Fish Cut Out Set</a>
                             <span class="quantity-price">Số lượng<span class="amount"> 10</span></span>

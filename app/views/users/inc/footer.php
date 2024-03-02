@@ -110,12 +110,12 @@
                     <div class="row flex-sm-row-reverse">
                         <div class="col-md-6 text-end">
                             <div class="payment-link">
-                                <img src="../../../../publics/assets/images/icons/payment.png" alt="">
+                                <img src="<?= PUBLIC_URL ?>images/icons/payment.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6 text-start">
                             <p class="copy-text"> © 2021 <strong>Furns</strong> Made With <i class="ion-heart"
-                                    aria-hidden="true"></i> By <a class="company-name" href="https://hasthemes.com/">
+                                    aria-hidden="true"></i> By <a class="company-name" href="">
                                     <strong> HasThemes</strong></a>.</p>
                         </div>
                     </div>
@@ -142,23 +142,23 @@
                             <div class="swiper-container gallery-top mb-20px">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/1.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/1.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/2.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/3.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/3.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/4.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/4.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/5.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/5.jpg"
                                             alt="">
                                     </div>
                                 </div>
@@ -166,23 +166,23 @@
                             <div class="swiper-container gallery-thumbs slider-nav-style-1 small-nav">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/1.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/1.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/2.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/3.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/3.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/4.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/4.jpg"
                                             alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="img-responsive m-auto" src="../../../../publics/assets/images/product-image/5.jpg"
+                                        <img class="img-responsive m-auto" src="<?= PUBLIC_URL ?>images/product-image/5.jpg"
                                             alt="">
                                     </div>
                                 </div>
@@ -281,30 +281,30 @@
     <!-- Global Vendor, plugins JS -->
 
     <!-- Vendor JS -->
-    <!-- <script src="../../../../publics/assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="../../../../publics/assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../publics/assets/js/vendor/bootstrap.min.js"></script>
-    <script src="../../../../publics/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="../../../../publics/assets/js/vendor/modernizr-3.11.2.min.js"></script> -->
+    <!-- <script src="<?= PUBLIC_URL ?>js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/vendor/popper.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/vendor/bootstrap.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/vendor/modernizr-3.11.2.min.js"></script> -->
 
     <!--Plugins JS-->
-    <!-- <script src="../../../../publics/assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="../../../../publics/assets/js/plugins/jquery-ui.min.js"></script>
-    <script src="../../../../publics/assets/js/plugins/jquery.nice-select.min.js"></script>
-    <script src="../../../../publics/assets/js/plugins/countdown.js"></script>
-    <script src="../../../../publics/assets/js/plugins/scrollup.js"></script>
-    <script src="../../../../publics/assets/js/plugins/jquery.waypoints.js"></script>
-    <script src="../../../../publics/assets/js/plugins/jquery.lineProgressbar.js"></script>
-    <script src="../../../../publics/assets/js/plugins/jquery.zoom.min.js"></script>
-    <script src="../../../../publics/assets/js/plugins/venobox.min.js"></script>
-    <script src="../../../../publics/assets/js/plugins/ajax-mail.js"></script> -->
+    <!-- <script src="<?= PUBLIC_URL ?>js/plugins/swiper-bundle.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/jquery-ui.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/jquery.nice-select.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/countdown.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/scrollup.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/jquery.waypoints.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/jquery.lineProgressbar.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/jquery.zoom.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/venobox.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/ajax-mail.js"></script> -->
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <script src="../../../../publics/assets/js/vendor/vendor.min.js"></script>
-    <script src="../../../../publics/assets/js/plugins/plugins.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/vendor/vendor.min.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/plugins/plugins.min.js"></script>
 
     <!-- Main Js -->
-    <script src="../../../../publics/assets/js/main.js"></script>
+    <script src="<?= PUBLIC_URL ?>js/main.js"></script>
 </body>
 
 

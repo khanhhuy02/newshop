@@ -9,7 +9,7 @@
                     <div class=" swiper-slide">
                         <a class='category-inner ' href='shop-left-sidebar.html'>
                             <div class="category-single-item">
-                                <img src="../../../../publics/assets/images/icons/1.png" alt="">
+                                <img src="<?= PUBLIC_URL ?>images/icons/1.png" alt="">
                                 <span class="title">Điện thoại</span>
                             </div>
                         </a>
@@ -18,7 +18,7 @@
                     <div class=" swiper-slide">
                         <a class='category-inner ' href='shop-left-sidebar.html'>
                             <div class="category-single-item">
-                                <img src="../../../../publics/assets/images/icons/2.png" alt="">
+                                <img src="<?= PUBLIC_URL ?>images/icons/2.png" alt="">
                                 <span class="title">Laptop</span>
                             </div>
                         </a>
@@ -27,7 +27,7 @@
                     <div class=" swiper-slide">
                         <a class='category-inner ' href='shop-left-sidebar.html'>
                             <div class="category-single-item">
-                                <img src="../../../../publics/assets/images/icons/3.png" alt="">
+                                <img src="<?= PUBLIC_URL ?>images/icons/3.png" alt="">
                                 <span class="title">PC</span>
                             </div>
                         </a>
@@ -36,7 +36,7 @@
                     <div class=" swiper-slide">
                         <a class='category-inner ' href='shop-left-sidebar.html'>
                             <div class="category-single-item">
-                                <img src="../../../../publics/assets/images/icons/4.png" alt="">
+                                <img src="<?= PUBLIC_URL ?>images/icons/4.png" alt="">
                                 <span class="title">Tablet</span>
                             </div>
                         </a>
@@ -45,7 +45,7 @@
                     <div class="swiper-slide">
                         <a class='category-inner ' href='shop-left-sidebar.html'>
                             <div class="category-single-item">
-                                <img src="../../../../publics/assets/images/icons/5.png" alt="">
+                                <img src="<?= PUBLIC_URL ?>images/icons/5.png" alt="">
                                 <span class="title">Đồ cũ</span>
                             </div>
                         </a>
@@ -97,8 +97,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -137,8 +137,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -178,8 +178,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -218,8 +218,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -259,8 +259,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -299,8 +299,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -340,8 +340,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -380,8 +380,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -428,8 +428,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <!-- <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <!-- <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" /> -->
                                             </a>
                                             <span class="badges">
@@ -468,8 +468,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/3.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/4.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/3.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/4.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -508,8 +508,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/5.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/6.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/5.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/6.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -544,8 +544,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/7.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/8.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/7.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/8.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -580,8 +580,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/9.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/10.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/9.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/10.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -617,8 +617,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/11.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/12.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/11.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/12.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -652,8 +652,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/13.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/14.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/13.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/14.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -686,8 +686,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/15.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/16.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/15.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/16.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -728,8 +728,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -763,8 +763,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/3.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/4.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/3.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/4.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -801,8 +801,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/5.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/6.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/5.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/6.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -837,8 +837,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/7.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/8.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/7.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/8.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -873,8 +873,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/9.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/10.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/9.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/10.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -910,8 +910,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/11.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/12.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/11.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/12.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -945,8 +945,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/13.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/14.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/13.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/14.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -979,8 +979,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/15.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/16.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/15.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/16.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1021,8 +1021,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/1.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/2.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/1.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/2.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1056,8 +1056,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/3.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/4.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/3.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/4.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1094,8 +1094,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/5.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/6.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/5.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/6.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1130,8 +1130,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/7.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/8.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/7.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/8.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1166,8 +1166,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/9.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/10.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/9.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/10.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1203,8 +1203,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/11.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/12.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/11.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/12.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1238,8 +1238,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/13.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/14.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/13.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/14.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1272,8 +1272,8 @@
                                     <div class="product">
                                         <div class="thumb">
                                             <a class='image' href='shop-left-sidebar.html'>
-                                                <img src="../../../../publics/assets/images/product-image/15.jpg" alt="Product" />
-                                                <img class="hover-image" src="../../../../publics/assets/images/product-image/16.jpg"
+                                                <img src="<?= PUBLIC_URL ?>images/product-image/15.jpg" alt="Product" />
+                                                <img class="hover-image" src="<?= PUBLIC_URL ?>images/product-image/16.jpg"
                                                     alt="Product" />
                                             </a>
                                             <span class="badges">
@@ -1321,7 +1321,7 @@
                 <!-- Banner Start -->
                 <div class="col-lg-6 col-12 mb-md-30px mb-lm-30px" data-aos="fade-up" data-aos-delay="200">
                     <a class='banner' href='shop-left-sidebar.html'>
-                        <img src="../../../../publics/assets/images/banner/1.jpg" alt="" />
+                        <img src="<?= PUBLIC_URL ?>images/banner/1.jpg" alt="" />
                         <div class="info justify-content-end">
                             <div class="content align-self-center">
                                 <h3 class="title">
@@ -1337,7 +1337,7 @@
                 <!-- Banner Start -->
                 <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-delay="400">
                     <a class='banner' href='shop-left-sidebar.html'>
-                        <img src="../../../../publics/assets/images/banner/2.jpg" alt="" />
+                        <img src="<?= PUBLIC_URL ?>images/banner/2.jpg" alt="" />
                         <div class="info justify-content-start">
                             <div class="content align-self-center">
                                 <h3 class="title">
@@ -1373,7 +1373,7 @@
                 <div class="swiper-wrapper">
                     <div class="single-blog swiper-slide">
                         <div class="blog-image">
-                            <a href='blog-single-left-sidebar.html'><img src="../../../../publics/assets/images/blog-image/1.jpg"
+                            <a href='blog-single-left-sidebar.html'><img src="<?= PUBLIC_URL ?>images/blog-image/1.jpg"
                                     class="img-responsive w-100" alt=""></a>
                         </div>
                         <div class="blog-text">
@@ -1391,7 +1391,7 @@
                     <!-- End single blog -->
                     <div class="single-blog swiper-slide">
                         <div class="blog-image">
-                            <a href='blog-single-left-sidebar.html'><img src="../../../../publics/assets/images/blog-image/2.jpg"
+                            <a href='blog-single-left-sidebar.html'><img src="<?= PUBLIC_URL ?>images/blog-image/2.jpg"
                                     class="img-responsive w-100" alt=""></a>
                         </div>
                         <div class="blog-text">
@@ -1409,7 +1409,7 @@
                     <!-- End single blog -->
                     <div class="single-blog swiper-slide">
                         <div class="blog-image">
-                            <a href='blog-single-left-sidebar.html'><img src="../../../../publics/assets/images/blog-image/3.jpg"
+                            <a href='blog-single-left-sidebar.html'><img src="<?= PUBLIC_URL ?>images/blog-image/3.jpg"
                                     class="img-responsive w-100" alt=""></a>
                         </div>
                         <div class="blog-text">
@@ -1427,7 +1427,7 @@
                     <!-- End single blog -->
                     <div class="single-blog swiper-slide">
                         <div class="blog-image">
-                            <a href='blog-single-left-sidebar.html'><img src="../../../../publics/assets/images/blog-image/4.jpg"
+                            <a href='blog-single-left-sidebar.html'><img src="<?= PUBLIC_URL ?>images/blog-image/4.jpg"
                                     class="img-responsive w-100" alt=""></a>
                         </div>
                         <div class="blog-text">
@@ -1471,7 +1471,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-md-30px mb-lm-30px" data-aos="fade-up" data-aos-delay="200">
                     <div class="insta-wrapper">
                         <a href="https://www.instagram.com/" target="_blank"><img class="w-100"
-                                src="../../../../publics/assets/images/instragram-image/1.png" alt="">
+                                src="<?= PUBLIC_URL ?>images/instragram-image/1.png" alt="">
 
                         </a>
                     </div>
@@ -1480,7 +1480,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-md-30px mb-lm-30px" data-aos="fade-up" data-aos-delay="400">
                     <div class="insta-wrapper">
                         <a href="https://www.instagram.com/" target="_blank"><img class="w-100"
-                                src="../../../../publics/assets/images/instragram-image/2.png" alt="">
+                                src="<?= PUBLIC_URL ?>images/instragram-image/2.png" alt="">
 
                         </a>
                     </div>
@@ -1489,7 +1489,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-xs-30px" data-aos="fade-up" data-aos-delay="600">
                     <div class="insta-wrapper">
                         <a href="https://www.instagram.com/" target="_blank"><img class="w-100"
-                                src="../../../../publics/assets/images/instragram-image/3.png" alt="">
+                                src="<?= PUBLIC_URL ?>images/instragram-image/3.png" alt="">
 
                         </a>
                     </div>
@@ -1498,7 +1498,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 " data-aos="fade-up" data-aos-delay="800">
                     <div class="insta-wrapper">
                         <a href="https://www.instagram.com/" target="_blank"><img class="w-100"
-                                src="../../../../publics/assets/images/instragram-image/4.png" alt="">
+                                src="<?= PUBLIC_URL ?>images/instragram-image/4.png" alt="">
 
                         </a>
                     </div>

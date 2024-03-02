@@ -18,7 +18,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-5 col-md-5 col-sm-5">
                                 <div class="hero-slide-image">
-                                    <img src="../../../../../publics/assets/images/slider-image/slider-1.png" alt="" />
+                                    <img src="<?= PUBLIC_URL ?>images/slider-image/slider-1.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-5 col-md-5 col-sm-5">
                                 <div class="hero-slide-image">
-                                    <img src="../../../../../publics/assets/images/slider-image/slider-2.png" alt="" />
+                                    <img src="<?= PUBLIC_URL ?>images/slider-image/slider-2.png" alt="" />
                                 </div>
                             </div>
                         </div>

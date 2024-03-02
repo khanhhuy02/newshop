@@ -29,10 +29,18 @@ class HomeController extends Controller
     }
 
 
-    public function errors()
+
+
+
+    public function shop()
     {
-        $titlePage ="trang chủ không tồn tại";
-        $viewnoidung = 'app/views/users/errors/404.php';
+        $titlePage ="Cửa hàng";
+
+        // $dienthoai = getAllOutstanding("listproducts", "category_brand", 1, 10);
+        // $maytinh = getAllOutstanding("listproducts", "category_products", 2, 10);
+        // $listCategory = getAllProducts("category_products");
+        // $viewnoidung = 'app/views/users/layout/productHome.php';
+        $viewnoidung = 'app/views/users/shop/shop.php';
         $this->view("users/layout.php", [
             "titlePage" => $titlePage,
             "viewnoidung" => $viewnoidung,
@@ -42,6 +50,12 @@ class HomeController extends Controller
 
         ]);
     }
+
+
+
+
+
+
 
     public function login()
     {
@@ -71,5 +85,21 @@ class HomeController extends Controller
             "users/login/login.php",
             []
         );
+    }
+
+
+    
+    public function errors()
+    {
+        $titlePage ="trang chủ không tồn tại";
+        $viewnoidung = 'app/views/users/errors/404.php';
+        $this->view("users/layout.php", [
+            "titlePage" => $titlePage,
+            "viewnoidung" => $viewnoidung,
+            // "dienthoai" => $dienthoai,
+            // "maytinh" => $maytinh,
+            // "listCategory" => $listCategory,
+
+        ]);
     }
 }

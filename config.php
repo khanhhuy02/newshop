@@ -7,5 +7,5 @@ const DB_PASS = "";
 const ROOT_URL = '/newshop/';
 
 const BASE_DIR = __DIR__;
-const PUBLIC_URL = ROOT_URL.'/public/';
+// const PUBLIC_URL = ROOT_URL.'/public/';
 
