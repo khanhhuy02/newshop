@@ -22,9 +22,9 @@ class Controller
                 // $urls = $protocol . $_SERVER['HTTP_HOST'] . ROOT_URL;
 
                 // if ($url == $urls) {
-                    require_once 'app/views/users/layout.php';
+                require_once 'app/views/users/layout.php';
                 // } else {
-                    // require_once 'app/views/users/login.php';
+                // require_once 'app/views/users/login.php';
                 // }
             } else
                 echo 'Không tồn tại đường dẫn tệp giao diện';
@@ -40,6 +40,8 @@ class Controller
                 require_once 'app/views/admins/layout.php';
             } else
                 echo 'Không tồn tại đường dẫn tệp giao diện';
+        } else {
+            require_once 'app/views/users/404.html';
         }
     }
 }

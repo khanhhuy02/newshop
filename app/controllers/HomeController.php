@@ -27,6 +27,22 @@ class HomeController extends Controller
 
         ]);
     }
+
+
+    public function errors()
+    {
+        $titlePage ="trang chủ không tồn tại";
+        $viewnoidung = 'app/views/users/errors/404.php';
+        $this->view("users/layout.php", [
+            "titlePage" => $titlePage,
+            "viewnoidung" => $viewnoidung,
+            // "dienthoai" => $dienthoai,
+            // "maytinh" => $maytinh,
+            // "listCategory" => $listCategory,
+
+        ]);
+    }
+
     public function login()
     {
 

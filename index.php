@@ -15,6 +15,7 @@ $router = [
     'GET' => [
         //user
         '' => [new HomeController, "index"],
+        '404' => [new HomeController, "errors"],
         'trangchitiet' => [new UserController, "pageDetail"],
         'sanpham' => [new UserController, "details"],
         
@@ -66,6 +67,7 @@ $route = strtolower(trim($arr[0], '/'));
 if (count($arr) >= 2) {
     parse_str($arr[1], $query);
     $params = array_merge($_GET, $query);
+  
 } else {
     $params = $_GET;
 }
@@ -76,5 +78,14 @@ $method = $_SERVER['REQUEST_METHOD'];
 if (!array_key_exists($method, $router)) {
     die("Method không phù hợp: " . $method);
 }
+if (!array_key_exists($route, $router[$method])) {
+    $route = '404'; // Redirect to '404' route if route not found
+}
+
+
+
 $action = $router[$method][$route];  // [0 => SanphamController, 1 => detail]
 call_user_func($action);
+
+
+

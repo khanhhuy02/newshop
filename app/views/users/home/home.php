@@ -1360,10 +1360,10 @@
             <div class="row">
                 <div class="col-md-12" data-aos="fade-up">
                     <div class="section-title text-center mb-11">
-                        <h2 class="title">Latest News</h2>
-                        <p class="sub-title">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
+                        <h2 class="title">Tin Tức Hôm Nay</h2>
+                        <!-- <p class="sub-title">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
                             tempor incididunt ut labore
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
